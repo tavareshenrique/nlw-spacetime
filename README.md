@@ -46,6 +46,8 @@
 git clone https://github.com/tavareshenrique/nlw-spacetime
 ```
 
+## Server
+
 > Acesse o Server
 
 ```bash
@@ -58,11 +60,29 @@ cd server
 pnpm install
 ```
 
+> Informe as variáveis de ambiente
+```bash
+cp .env.example .env
+```
+
+```bash
+GITHUB_CLIENT_ID=""
+GITHUB_CLIENT_SECRET=""
+```
+
+> Execute o Prisma para criar as tabelas
+
+```bash
+npx prisma migrate dev
+```
+
 > Inicie o Serviço:
 
 ```bash
 pnpm dev
 ```
+
+## Web
 
 > Com o Server Iniciado, acesse o projeto Web:
 
@@ -74,6 +94,15 @@ cd .. && cd web
 
 ```bash
 pnpm install
+```
+
+> Informe a variável de ambiente
+```bash
+cp .env.example .env
+```
+
+```bash
+NEXT_PUBLIC_GITHUB_CLIENT_ID=
 ```
 
 > Inicie o Projeto:
