@@ -12,21 +12,21 @@
   "license": "ISC",
   "devDependencies": {
     "@rocketseat/eslint-config": "1.2.0",
-    "@types/node": "^20.2.0",
-    "dotenv": "^16.0.3",
+    "@types/node": "20.2.0",
+    "dotenv": "16.0.3",
     "eslint": "8.40.0",
-    "prisma": "^4.14.0",
+    "prisma": "4.14.0",
     "tsx": "3.12.7",
     "typescript": "5.0.4"
   },
   "dependencies": {
-    "@fastify/cors": "^8.2.1",
-    "@fastify/jwt": "^6.7.1",
-    "@fastify/multipart": "^7.6.0",
-    "@fastify/static": "^6.10.1",
+    "@fastify/cors": "8.2.1",
+    "@fastify/jwt": "6.7.1",
+    "@fastify/multipart": "7.6.0",
+    "@fastify/static": "6.10.1",
     "@prisma/client": "4.14.0",
-    "axios": "^1.4.0",
+    "axios": "1.4.0",
     "fastify": "4.17.0",
-    "zod": "^3.21.4"
+    "zod": "3.21.4"
   }
 }
